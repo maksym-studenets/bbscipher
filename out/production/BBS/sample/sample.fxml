@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="283.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <Button layoutX="273.0" layoutY="55.0" mnemonicParsing="false" onAction="#code" prefHeight="25.0" prefWidth="55.0" text="Code" />
+        <TextArea fx:id="vReadText" layoutX="35.0" layoutY="19.0" prefHeight="200.0" prefWidth="200.0" promptText="Read text" />
+        <TextArea fx:id="vWriteText" layoutX="378.0" layoutY="21.0" prefHeight="200.0" prefWidth="200.0" promptText="Write Text" />
+        <TextField fx:id="vP" layoutX="35.0" layoutY="235.0" prefHeight="25.0" prefWidth="167.0" promptText="p" />
+        <Button layoutX="263.0" layoutY="196.0" mnemonicParsing="false" onAction="#reverse" text="Reverse Text" />
+        <Button layoutX="274.0" layoutY="94.0" mnemonicParsing="false" onAction="#readText" prefHeight="25.0" prefWidth="55.0" text="Read" />
+        <Button layoutX="274.0" layoutY="129.0" mnemonicParsing="false" onAction="#writeText" prefHeight="25.0" prefWidth="55.0" text="Write" />
+      <TextField fx:id="vQ" layoutX="218.0" layoutY="235.0" prefHeight="25.0" prefWidth="167.0" promptText="q" />
+      <TextField fx:id="vSeed" layoutX="404.0" layoutY="235.0" prefHeight="25.0" prefWidth="167.0" promptText="seed" />
+    </children>
+</AnchorPane>
